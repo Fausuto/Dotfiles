@@ -1,0 +1,72 @@
+!! URxvt Appearance
+
+
+!URxvt*termName:		screen-256color
+
+! Makes the unfocused windows a little dimmer/fader
+URxvt*fading:		30
+
+! Color for characters that are underlined
+URxvt*colorUL:		yellow
+
+! Color for the underline bar itself
+URxvt*underlineColor:	orange
+
+! Hides left scrollbar
+URxvt*scrollBar:	false
+
+! Padding inside the terminal
+URxvt*internalBorder:	25
+
+! Blinking cursor
+URxvt*cursorBlink:	true
+
+! Font
+URxvt.font:		xft:Iosevka:sytle=Regular:size=10
+URxvt.boldFont:		xft:Iosevka:style=Bold:size=10
+URxvt.italicFont:	xft:Iosevka:style=Italic:size=10
+URxvt.boldItalicFont:	xft:Iosevka:style=Bold Italic:size=10
+
+
+!! Colorscheme
+
+
+!URxvt*background:	Black
+!URxvt*foreground:	White
+
+! special
+*.foreground:   #98d1ce
+*.background:   #0a0f14
+*.cursorColor:  #98d1ce
+
+! black
+*.color0:       #0a0f14
+*.color8:       #10151b
+
+! red
+*.color1:       #c33027
+*.color9:       #d26939
+
+! green
+*.color2:       #26a98b
+*.color10:      #081f2d
+
+! yellow
+*.color3:       #edb54b
+*.color11:      #245361
+
+! blue
+*.color4:       #195465
+*.color12:      #093748
+
+! magenta
+*.color5:       #4e5165
+*.color13:      #888ba5
+
+! cyan
+*.color6:       #33859d
+*.color14:      #599caa
+
+! white
+*.color7:       #98d1ce
+*.color15:      #d3ebe9
